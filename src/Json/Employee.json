@@ -1,0 +1,28 @@
+[
+  {
+    "User_Id": "1000",
+    "first_name": "hussain",
+    "last_name": "20",
+    "age": "21",
+    "gender": "m",
+    "address": {
+      "addressLine1": "123",
+      "street": "George Town",
+      "state": "tamilnadu",
+      "country": "india"
+    }
+  },
+  {
+    "User_Id": "1000",
+    "first_name": "hussain",
+    "last_name": "20",
+    "age": "21",
+    "gender": "m",
+    "address": {
+      "addressLine1": "123",
+      "street": "George Town",
+      "state": "tamilnadu",
+      "country": "india"
+    }
+  }
+]
