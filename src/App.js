@@ -4,6 +4,10 @@ import React from "react";
 import DataRetrievingfromEndpoint from "./DataRetrievingfromEndpoint";
 import EmployeeTables from "./EmployeeTables";
 import EmployeeReadFromState from "./EmployeeReadFromState";
+import EntryForm from "./EntryForm";
+import UpdateForm from "./UpdateForm";
+import Header from "./SubComponents/Header";
+import Routes from "./router";
 
 class App extends React.Component {
   // constructor(props) {
@@ -23,7 +27,10 @@ class App extends React.Component {
         {/* <ApiGetcall /> */}
         {/* <DataRetrievingfromEndpoint /> */}
         {/* <EmployeeTables /> */}
-        <DataRetrievingfromEndpoint />
+        <Header />
+        <Routes />
+
+        {/* <EntryForm /> */}
       </div>
     );
     // this.state.items.map((item, key) => (

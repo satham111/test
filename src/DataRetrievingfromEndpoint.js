@@ -7,42 +7,24 @@ class DataRetrievingfromEndpoint extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      user: [],
+      users: [],
       filter: "",
-      user1: [],
+      user: "",
       isdata: false
     };
     this.handleChange = this.handleChange.bind(this);
   }
   componentDidMount() {
     axios.get("https://jsonplaceholder.typicode.com/users").then(res => {
-      const user = res.data;
-      this.setState({ user });
+      const users = res.data;
+      this.setState({ users });
     });
   }
   handleChange(e) {
     this.setState({ selectedTeam: e.target.value });
-    //const filter = e.target.value;
     this.setState({ filter: e.target.value });
-    //const path = "https://jsonplaceholder.typicode.com/users/" + filter;
-
-    // const user = this.state.user.filter(row => {
-    //   return row.id.match(e.target.value);
-    // });
-    console.log(this.state.user);
-    const user = this.state.user.filter(row => {
-      return row.id.match(e.target.value);
-    });
-
-    this.setState({ user1: user });
-
-    // axios.get(path).then(res => {
-    //   const user1 = res.data;
-    //   this.setState({ user1 });
-    // });
-    if (this.state.user.name && this.state.user.username) {
-      this.setState({ isdata: true });
-    }
+    const user = this.state.users.find(user => user.id === e.target.value);
+    this.setState({ user: user });
   }
 
   render() {
@@ -53,7 +35,7 @@ class DataRetrievingfromEndpoint extends React.Component {
           <option key="" value="---Select----">
             ----Select------
           </option>
-          {this.state.user.map(team => (
+          {this.state.users.map(team => (
             <option key={team.value} value={team.value}>
               {team.id}
             </option>
@@ -71,12 +53,12 @@ class DataRetrievingfromEndpoint extends React.Component {
           </thead>
           <tbody>
             <tr>
-              <td>{this.state.user1.id}</td>
-              <td>{this.state.user1.name}</td>
-              <td>{this.state.user1.email}</td>
-              <td>{this.state.user1.username}</td>
-              <td>{this.state.user1.phone}</td>
-              <td>{this.state.user1.website}</td>
+              <td>{this.state.user.id}</td>
+              <td>{this.state.user.name}</td>
+              <td>{this.state.user.email}</td>
+              <td>{this.state.user.username}</td>
+              <td>{this.state.user.phone}</td>
+              <td>{this.state.user.website}</td>
             </tr>
           </tbody>
         </table>
