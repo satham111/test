@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T07:18:22.469Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="RK76SR3aUSt3fkz_i9Vo" version="14.2.9" type="github"><diagram id="60PBFlRCnKcZ06irirZX" name="Page-1">jZTbcqMwDIafhsvucGiy3G5Jum2nSXeazvTaYAW8NdhrzCF9+pXB5jCZzvQGxGdJluVfeFFS9r8VkcVBUOBe6NPei3ZeGP6MQ3wacBnB7SYYQa4YHdECnNgnWOhb2jAK9cpRC8E1k2uYiaqCTK8YUUp0a7ez4OtdJcnhCpwywq/pO6O6GGm88Wf+ACwv3M6Bb1dK4pwtqAtCRbdA0d6LEiWEHq2yT4Cb3rm+jHH3X6xOhSmo9HcC+vY1/pvs2y4Rb4/t4elY/ipu7O20hDf2wF645ZjvTpqmclKP/dv+a0ydd4daHIUqCZ8RWrl9D4G1JBXGclLlq9D98ebxeB22I4xf0H/3/mDuh2HjQ79jQ+mpsSUnGVBzEJNWF+A2SpU5rE3zUlZMEpPodP/2x+wvMqKZqH6gByklulRpLRd1YvBY6rp8xHJmw8Xpi1MD3qE0ZnbhrKKgInTqCqbhJLFIXOhwCJAVuuT4FZgqRYOe9DmdAMk+cmXoS6MxDVhej9oPNmhjG3giuFDDthElEJ8z46OV+IDFyjaLIT1PpbagNPRfCiSYZIfjCqIErUzHXEBklWpH1Qm3m3UfuLEslpp3jsTOWj6lnuWIhlWk+5yVP6wtfh/R/j8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-08T07:43:01.049Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ySXpERuFhl13zzziAM1l" version="14.2.9" type="github">
+  <diagram id="60PBFlRCnKcZ06irirZX" name="Page-1">
+    <mxGraphModel dx="920" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="xvR8jCEvwCoTIvMJNmAh-2" target="seOo0xL-dIcXm9XMJXj5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="xvR8jCEvwCoTIvMJNmAh-2" target="seOo0xL-dIcXm9XMJXj5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xvR8jCEvwCoTIvMJNmAh-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-IN&quot;&gt;Daily DWH file will be placed in the&lt;br/&gt;Omnipay SFTP location.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="130" y="20" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="seOo0xL-dIcXm9XMJXj5-1" target="seOo0xL-dIcXm9XMJXj5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-IN&quot;&gt;Scheduler job will pick up file automatically&lt;br&gt;and placed in the respective SFTP.&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130.5" y="230" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="seOo0xL-dIcXm9XMJXj5-2" target="seOo0xL-dIcXm9XMJXj5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-2" value="Once file came into Respective location.Scheduler will invoke the processing url." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="400" width="155" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="seOo0xL-dIcXm9XMJXj5-4" target="seOo0xL-dIcXm9XMJXj5-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="650" />
+              <mxPoint x="370" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-4" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-IN&quot;&gt;Once DWH and SA feed file processed&lt;br/&gt;completely for each day - ETL process will start execute as an automated job&lt;/span&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="584" width="171" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="seOo0xL-dIcXm9XMJXj5-20" target="seOo0xL-dIcXm9XMJXj5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-20" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-IN&quot;&gt;Last day of every month will have COA (Cost&lt;br/&gt;of Acceptance) csv file will get processed which is also configured in&lt;br/&gt;Scheduler job&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="30" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="seOo0xL-dIcXm9XMJXj5-23" target="seOo0xL-dIcXm9XMJXj5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-23" value="&lt;span&gt;Once ETL and COA file processed in current month, the first day of next month Monthly Statement Report process Job will get executed.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="572" y="230" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="seOo0xL-dIcXm9XMJXj5-26" target="seOo0xL-dIcXm9XMJXj5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-26" value="&lt;span&gt;After month process completion, Pdf generation Job will executed and place files in respective sftp location.&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="seOo0xL-dIcXm9XMJXj5-28" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-IN&quot;&gt;Statement will get generated the respective&lt;br/&gt;SFTP location and do email notification to the merchant&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="606" y="546" width="110" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
